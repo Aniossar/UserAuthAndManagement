@@ -1,10 +1,11 @@
-Add directory Upload and update the path in application.properties
-
 Service for user authentication and authorization, user management and logging activities.
+
 Includes:
   A. Authentication and authorization with access and refresh JWT tokens.
   B. User management service (with e-mail services to restore forgotten password).
   C. Logging user activity service (with attendance functionality).
+
+Don't forget to fill application.properties.
 
 _All /api/ endpoints need authorization with bearer token._
 
